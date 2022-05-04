@@ -1,31 +1,3 @@
-# MIC Web
-
-You can see a demo of the project at [micweb.netlify.app](micweb.netlify.app/)
-
-This project is not production-ready.
-
-## Features
-
-### General 
-- [x] Align the styles to the MINT web.
-- [x] Save the model, model versions, model configurations into the MINT Model Catalog.
-
-### IPython transformation
-- [x] Transform a IPython notebook according the [ipython2cwl](https://github.com/common-workflow-lab/ipython2cwl).
-- [x] The user can be describe parameters and inputs.
-- [x] The system must to push the image onto the DockerHub.
-- [ ] The user can select the output using glob expression. Following the [CWL spec](https://www.commonwl.org/user_guide/10-array-outputs/index.html)
-
-### Terminal
-
-- [x] The user can schedule a Docker Container using a base Docker Images.
-- [x] The system must to expose the terminal.
-- [x] The system must to store history of commands written by the user.
-- [ ] The user can select which commands are directives (these run the model).
-- [ ] The user can select a file or multiple files as Inputs.
-- [ ] The user can select a file a config file.
-- [ ] The user can select the output using glob expression. Following the [CWL spec](https://www.commonwl.org/user_guide/10-array-outputs/index.html)
-- [ ] The system must to push the image onto the DockerHub.
 
 ## How to run?
 
